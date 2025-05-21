@@ -1,0 +1,86 @@
+.rituals-container {
+  background: linear-gradient(135deg, #110c0c, #2a1f1f);
+  color: #e0d9b8;
+  min-height: 100vh;
+  padding: 2rem 2rem 4rem;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.rituals-container h1 {
+  font-size: 3rem;
+  color: #b54848;
+  text-shadow: 0 0 15px #b54848;
+  margin-bottom: 1rem;
+}
+
+.rituals-container p {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #d9cfa4;
+}
+
+.rituals-list {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  text-align: left;
+}
+
+.ritual-card {
+  background: #3a2c2c;
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.8rem;
+  border: 2px solid #b54848;
+  box-shadow: 0 0 12px #b5484844;
+  transition: box-shadow 0.3s ease;
+}
+
+.ritual-card:hover {
+  box-shadow: 0 0 25px #b54848aa;
+}
+
+.ritual-card h2 {
+  margin-bottom: 0.5rem;
+  color: #eecfcf;
+  font-size: 2rem;
+}
+
+.ritual-card p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #f0e8d0;
+}
+
+.ritual-card ol {
+  padding-left: 1.3rem;
+  color: #dbb48a;
+}
+
+.ritual-card ol li {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.back-button {
+  background-color: #6f2a2a;
+  color: #f0e8d0;
+  border: 2px solid #b54848;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  font-family: 'Merriweather', serif;
+}
+
+.back-button:hover {
+  background-color: #b54848;
+  color: #110c0c;
+  box-shadow: 0 0 20px #b54848;
+  transform: scale(1.05);
+}

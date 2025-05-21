@@ -1,0 +1,86 @@
+.alchemy-container {
+  background: radial-gradient(circle at center, #1a1a1a 0%, #000000 100%);
+  color: #e0d8c0;
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+}
+
+.alchemy-container h1 {
+  color: #cc9900;
+  font-size: 3.5rem;
+  text-shadow: 0 0 15px #cc9900;
+  margin-bottom: 1.5rem;
+}
+
+.alchemy-container p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+}
+
+.elements-section,
+.symbols-section {
+  margin: 2rem 0;
+  text-align: left;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.elements-section h2,
+.symbols-section h2 {
+  color: #cc9900;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #cc9900;
+  padding-bottom: 0.3rem;
+}
+
+.elements-section ul,
+.symbols-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.elements-section li,
+.symbols-section li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  padding-left: 1.2rem;
+  position: relative;
+  color: #d4c47e;
+}
+
+.elements-section li::before,
+.symbols-section li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  color: #cc9900;
+  font-weight: bold;
+}
+
+.back-button {
+  margin-top: 3rem;
+  background-color: #553d00;
+  border: 2px solid #cc9900;
+  color: #e0d8c0;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.back-button:hover {
+  background-color: #cc9900;
+  color: #1a1a1a;
+  box-shadow: 0 0 15px #cc9900;
+  transform: scale(1.05);
+}

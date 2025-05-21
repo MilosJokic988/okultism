@@ -1,0 +1,85 @@
+.seals-container {
+  background: radial-gradient(circle at center, #1a1111, #000000);
+  color: #e3d9b8;
+  min-height: 100vh;
+  padding: 2rem 2rem 4rem;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
+.seals-container h1 {
+  font-size: 3rem;
+  color: #d14747;
+  text-shadow: 0 0 10px #d14747;
+  margin-bottom: 1rem;
+}
+
+.seals-container p {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #d9cfa4;
+}
+
+.seals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto 3rem;
+}
+
+.seal-card {
+  background: #2e1f1f;
+  border-radius: 15px;
+  padding: 1.5rem;
+  border: 2px solid #d14747;
+  box-shadow: 0 0 15px #d1474744;
+  transition: box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.seal-card:hover {
+  box-shadow: 0 0 30px #d14747aa;
+}
+
+.seal-image {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 0 5px #d14747);
+}
+
+.seal-card h2 {
+  margin-bottom: 0.5rem;
+  color: #f7ded0;
+  font-size: 1.8rem;
+}
+
+.seal-card p {
+  font-size: 1rem;
+  color: #f0e8d0;
+}
+
+.back-button {
+  background-color: #6f2a2a;
+  color: #f0e8d0;
+  border: 2px solid #d14747;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  font-family: 'Cinzel', serif;
+}
+
+.back-button:hover {
+  background-color: #d14747;
+  color: #110c0c;
+  box-shadow: 0 0 20px #d14747;
+  transform: scale(1.05);
+}

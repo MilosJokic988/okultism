@@ -1,0 +1,114 @@
+/* Glavni kontejner */
+.demonology-container {
+  padding: 2rem;
+  background-color: #0d0d0d;
+  color: #f8f8f8;
+  min-height: 100vh;
+  font-family: 'Cinzel', serif;
+}
+
+/* Naslov */
+.demonology-container h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: crimson;
+  text-shadow: 0 0 10px red;
+  letter-spacing: 2px;
+}
+
+/* Back dugme */
+.back-button {
+  background: none;
+  border: 1px solid crimson;
+  padding: 0.5rem 1rem;
+  color: crimson;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-bottom: 1.5rem;
+}
+
+.back-button:hover {
+  background-color: crimson;
+  color: black;
+}
+
+/* Filter deo */
+.filters {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.search-input,
+.domain-select {
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid crimson;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 250px;
+}
+
+.search-input:focus,
+.domain-select:focus {
+  outline: none;
+  box-shadow: 0 0 5px crimson;
+}
+
+/* Mreža demona */
+.demons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Kartica za svakog demona */
+.demon-card {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border: 1px solid crimson;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.demon-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px crimson;
+}
+
+/* Tekst unutar kartice */
+.demon-card h2 {
+  color: crimson;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.demon-card h4 {
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.demon-card p {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+}
+
+/* Poruka kad nema rezultata */
+.no-results {
+  color: gray;
+  font-style: italic;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Modal (ako koristiš pozadinsku klasu tamo) */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(6px);
+}

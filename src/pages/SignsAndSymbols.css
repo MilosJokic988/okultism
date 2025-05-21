@@ -1,0 +1,79 @@
+.symbols-container {
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  color: #d8d4c8;
+  min-height: 100vh;
+  padding: 2.5rem 2rem;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.symbols-container h1 {
+  font-size: 3rem;
+  color: #bb9f4a;
+  text-shadow: 0 0 12px #bb9f4a;
+  margin-bottom: 1rem;
+}
+
+.symbols-container p {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #cfc9a9;
+}
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  text-align: left;
+}
+
+.symbol-card {
+  background: #222;
+  border: 2px solid #bb9f4a;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #bb9f4a44;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.symbol-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #bb9f4a88;
+}
+
+.symbol-card h3 {
+  margin-bottom: 0.8rem;
+  color: #e1d88f;
+  font-size: 1.5rem;
+}
+
+.symbol-card p {
+  font-size: 1.1rem;
+  color: #d8d4c8;
+}
+
+.back-button {
+  background-color: #443c00;
+  color: #d8d4c8;
+  border: 2px solid #bb9f4a;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  font-family: 'Merriweather', serif;
+}
+
+.back-button:hover {
+  background-color: #bb9f4a;
+  color: #0f0f0f;
+  box-shadow: 0 0 15px #bb9f4a;
+  transform: scale(1.05);
+}
